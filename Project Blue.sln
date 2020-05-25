@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Networking", "Networking\Ne
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls", "Controls\Controls.vcxproj", "{E6B38619-60DE-4699-BD54-AA0DF98E8223}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Renderer", "Renderer\Renderer.vcxproj", "{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{E6B38619-60DE-4699-BD54-AA0DF98E8223}.Release|x64.Build.0 = Release|x64
 		{E6B38619-60DE-4699-BD54-AA0DF98E8223}.Release|x86.ActiveCfg = Release|Win32
 		{E6B38619-60DE-4699-BD54-AA0DF98E8223}.Release|x86.Build.0 = Release|Win32
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Debug|x64.ActiveCfg = Debug|x64
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Debug|x64.Build.0 = Debug|x64
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Debug|x86.Build.0 = Debug|Win32
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Release|x64.ActiveCfg = Release|x64
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Release|x64.Build.0 = Release|x64
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Release|x86.ActiveCfg = Release|Win32
+		{AD2B5BCD-E9CD-4E0C-BE1C-32E31B7E9505}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
