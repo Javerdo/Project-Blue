@@ -87,10 +87,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);C:\Users\batda\source\Repos\Project Blue\AI;C:\Users\batda\source\Repos\Project Blue\Algorithms;C:\Users\batda\source\Repos\Project Blue\Controls;C:\Users\batda\source\Repos\Project Blue\Core;C:\Users\batda\source\Repos\Project Blue\GUI;C:\Users\batda\source\Repos\Project Blue\Mathematics;C:\Users\batda\source\Repos\Project Blue\Networking;C:\Users\batda\source\Repos\Project Blue\Renderer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -99,10 +102,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);C:\Users\batda\source\Repos\Project Blue\AI;C:\Users\batda\source\Repos\Project Blue\Algorithms;C:\Users\batda\source\Repos\Project Blue\Controls;C:\Users\batda\source\Repos\Project Blue\Core;C:\Users\batda\source\Repos\Project Blue\GUI;C:\Users\batda\source\Repos\Project Blue\Mathematics;C:\Users\batda\source\Repos\Project Blue\Networking;C:\Users\batda\source\Repos\Project Blue\Renderer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -113,6 +119,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>;C:\Users\batda\source\Repos\Project Blue\AI;C:\Users\batda\source\Repos\Project Blue\Algorithms;C:\Users\batda\source\Repos\Project Blue\Controls;C:\Users\batda\source\Repos\Project Blue\Core;C:\Users\batda\source\Repos\Project Blue\GUI;C:\Users\batda\source\Repos\Project Blue\Mathematics;C:\Users\batda\source\Repos\Project Blue\Networking;C:\Users\batda\source\Repos\Project Blue\Renderer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -129,6 +136,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>;C:\Users\batda\source\Repos\Project Blue\AI;C:\Users\batda\source\Repos\Project Blue\Algorithms;C:\Users\batda\source\Repos\Project Blue\Controls;C:\Users\batda\source\Repos\Project Blue\Core;C:\Users\batda\source\Repos\Project Blue\GUI;C:\Users\batda\source\Repos\Project Blue\Mathematics;C:\Users\batda\source\Repos\Project Blue\Networking;C:\Users\batda\source\Repos\Project Blue\Renderer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,6 +147,32 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AI\AI.vcxproj">
+      <Project>{4d1e2750-4365-4dbe-8dc5-d889d88dc429}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Algorithms\Algorithms.vcxproj">
+      <Project>{86bded38-2dba-456f-a52f-572e050c05da}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Controls\Controls.vcxproj">
+      <Project>{e6b38619-60de-4699-bd54-aa0df98e8223}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Core\Core.vcxproj">
+      <Project>{1938ee6e-fa80-47e3-9441-1bbb9629b5c9}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GUI\GUI.vcxproj">
+      <Project>{2f8a485f-561d-4311-bc80-c0e148a17604}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Mathematics\Mathematics.vcxproj">
+      <Project>{821068d2-926d-4104-a22c-fb8e0cae1767}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Networking\Networking.vcxproj">
+      <Project>{0f6fc3c5-3cda-4212-8843-794dba0f4222}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Renderer\Renderer.vcxproj">
+      <Project>{ad2b5bcd-e9cd-4e0c-be1c-32e31b7e9505}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
