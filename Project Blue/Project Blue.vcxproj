@@ -87,7 +87,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);C:\Users\batda\source\Repos\Project Blue\AI;C:\Users\batda\source\Repos\Project Blue\Algorithms;C:\Users\batda\source\Repos\Project Blue\Controls;C:\Users\batda\source\Repos\Project Blue\Core;C:\Users\batda\source\Repos\Project Blue\GUI;C:\Users\batda\source\Repos\Project Blue\Mathematics;C:\Users\batda\source\Repos\Project Blue\Networking;C:\Users\batda\source\Repos\Project Blue\Renderer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
@@ -102,7 +102,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp17</LanguageStandard>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);C:\Users\batda\source\Repos\Project Blue\AI;C:\Users\batda\source\Repos\Project Blue\Algorithms;C:\Users\batda\source\Repos\Project Blue\Controls;C:\Users\batda\source\Repos\Project Blue\Core;C:\Users\batda\source\Repos\Project Blue\GUI;C:\Users\batda\source\Repos\Project Blue\Mathematics;C:\Users\batda\source\Repos\Project Blue\Networking;C:\Users\batda\source\Repos\Project Blue\Renderer</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>

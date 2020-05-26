@@ -141,15 +141,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
-    <ClInclude Include="DummyCore.h" />
+    <ClInclude Include="EngineObject.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="HashTable.h" />
-    <ClInclude Include="MemoryAllocation.h" />
+    <ClInclude Include="MemoryPool.h" />
     <ClInclude Include="Queue.h" />
     <ClInclude Include="Stack.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DummyCore.cpp" />
+    <ClCompile Include="EngineObject.cpp" />
+    <ClCompile Include="MemoryPool.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
