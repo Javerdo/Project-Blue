@@ -141,16 +141,33 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BinaryTree.h" />
+    <ClInclude Include="EngineManager.h" />
+    <ClInclude Include="EngineModule.h" />
     <ClInclude Include="EngineObject.h" />
+    <ClInclude Include="FileSystem.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="HashTable.h" />
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="MemoryPool.h" />
+    <ClInclude Include="QtWrapper.h" />
     <ClInclude Include="Queue.h" />
+    <ClInclude Include="RandomNumberGeneration.h" />
+    <ClInclude Include="Serialization.h" />
     <ClInclude Include="Stack.h" />
+    <ClInclude Include="Threading.h" />
+    <ClInclude Include="Timer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EngineManager.cpp" />
+    <ClCompile Include="EngineModule.cpp" />
     <ClCompile Include="EngineObject.cpp" />
+    <ClCompile Include="FileSystem.cpp" />
     <ClCompile Include="MemoryPool.cpp" />
+    <ClCompile Include="QtWrapper.cpp" />
+    <ClCompile Include="RandomNumberGeneration.cpp" />
+    <ClCompile Include="Serialization.cpp" />
+    <ClCompile Include="Threading.cpp" />
+    <ClCompile Include="Timer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
